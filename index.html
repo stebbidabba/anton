@@ -135,28 +135,32 @@
 		<section id="process" class="section reveal">
 			<div class="container">
 				<h2 class="section-title gothic" data-i18n="process_title">Ferlið</h2>
-				<ol class="steps">
-					<li class="step card-tilt">
-						<span class="step-num">1</span>
-						<h3 data-i18n="process_consult">Samráð</h3>
-						<p data-i18n="process_consult_desc">Við ræðum hugmynd, stærð og staðsetningu.</p>
-					</li>
-					<li class="step card-tilt">
-						<span class="step-num">2</span>
-						<h3 data-i18n="process_design">Hönnun</h3>
-						<p data-i18n="process_design_desc">Sjónræn útfærsla og aðlögun að líkamsformi.</p>
-					</li>
-					<li class="step card-tilt">
-						<span class="step-num">3</span>
-						<h3 data-i18n="process_session">Tattú</h3>
-						<p data-i18n="process_session_desc">Vinna á stúdíói með hreinlæti og fagmennsku.</p>
-					</li>
-					<li class="step card-tilt">
-						<span class="step-num">4</span>
-						<h3 data-i18n="process_aftercare">Eftirmeðferð</h3>
-						<p data-i18n="process_aftercare_desc">Leiðbeiningar til að tryggja fallegan gróanda.</p>
-					</li>
-				</ol>
+				<div class="process-cards">
+					<div class="process-card">
+						<div class="process-icon" aria-hidden="true">
+							<svg viewBox="0 0 24 24"><path d="M3 6a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6zm2 .5l7 4.5l7-4.5V6H5v.5z"></path></svg>
+						</div>
+						<h3 class="process-title"><span>Skref 1</span> — <span data-i18n="process_consult">Samráð</span></h3>
+						<p class="process-desc" data-i18n="process_consult_desc">Við ræðum hugmynd, stærð og staðsetningu.</p>
+					</div>
+					<div class="process-card">
+						<div class="process-icon" aria-hidden="true">
+							<svg viewBox="0 0 24 24"><path d="M4 4h16v12H7l-3 3V4z"></path></svg>
+						</div>
+						<h3 class="process-title"><span>Skref 2</span> — <span data-i18n="process_design">Hönnun</span></h3>
+						<p class="process-desc" data-i18n="process_design_desc">Sjónræn útfærsla og aðlögun að líkamsformi.</p>
+					</div>
+					<div class="process-card">
+						<div class="process-icon" aria-hidden="true">
+							<svg viewBox="0 0 24 24"><path d="M7 2h10a1 1 0 0 1 1 1v2h3v15a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5h3V3a1 1 0 0 1 1-1zm1 3V3h8v2H8zm-3 4h14v11H5V9z"></path></svg>
+						</div>
+						<h3 class="process-title"><span>Skref 3</span> — <span data-i18n="process_session">Tattú</span></h3>
+						<p class="process-desc" data-i18n="process_session_desc">Vinna á stúdíói með hreinlæti og fagmennsku.</p>
+					</div>
+				</div>
+				<div class="process-cta">
+					<a href="#booking" class="btn btn-primary" data-i18n="banner_cta">Bóka tíma</a>
+				</div>
 			</div>
 		</section>
 
@@ -207,26 +211,23 @@
 					</div>
 				</div>
 				<div class="gallery-grid">
-					
-					
-					
-					<a href="mantat1.png" class="gallery-item" data-category="karltattu">
+					<a href="mantat1.png" class="gallery-item" data-category="karltattu" data-label="FINE LINE">
 						<img src="mantat1.png" width="900" height="1200" alt="Karltattú 1" data-alt-is="Karltattú 1" data-alt-en="Men tattoo 1" loading="lazy">
 					</a>
-					<a href="mantat2.png" class="gallery-item" data-category="karltattu">
+					<a href="mantat2.png" class="gallery-item" data-category="karltattu" data-label="REALISM">
 						<img src="mantat2.png" width="900" height="1200" alt="Karltattú 2" data-alt-is="Karltattú 2" data-alt-en="Men tattoo 2" loading="lazy">
 					</a>
-					<a href="mantat3.png" class="gallery-item" data-category="karltattu">
+					<a href="mantat3.png" class="gallery-item" data-category="karltattu" data-label="BLACKWORK">
 						<img src="mantat3.png" width="900" height="1200" alt="Karltattú 3" data-alt-is="Karltattú 3" data-alt-en="Men tattoo 3" loading="lazy">
 					</a>
 					
-					<a href="womantat1.png" class="gallery-item" data-category="konutattu">
+					<a href="womantat1.png" class="gallery-item" data-category="konutattu" data-label="DELICATE">
 						<img src="womantat1.png" width="900" height="1200" alt="Konutattú 1" data-alt-is="Konutattú 1" data-alt-en="Women tattoo 1" loading="lazy">
 					</a>
-					<a href="womantat2.png" class="gallery-item" data-category="konutattu">
+					<a href="womantat2.png" class="gallery-item" data-category="konutattu" data-label="SCRIPT">
 						<img src="womantat2.png" width="900" height="1200" alt="Konutattú 2" data-alt-is="Konutattú 2" data-alt-en="Women tattoo 2" loading="lazy">
 					</a>
-					<a href="womantat3.png" class="gallery-item" data-category="konutattu">
+					<a href="womantat3.png" class="gallery-item" data-category="konutattu" data-label="MINIMAL">
 						<img src="womantat3.png" width="900" height="1200" alt="Konutattú 3" data-alt-is="Konutattú 3" data-alt-en="Women tattoo 3" loading="lazy">
 					</a>
 				</div>
@@ -234,35 +235,30 @@
 		</section>
 
 		<section id="booking" class="booking section reveal">
-			<div class="container contact-panels grid two">
-				<div class="panel gold-edge">
-					<h2 class="section-title gothic" data-i18n="booking_title">Hafa samband</h2>
-					<p class="about-p" data-i18n="contact_intro">Sendu mér línu með hugmyndinni þinni eða spurningu og ég svara eins fljótt og auðið er.</p>
-					<p><strong data-i18n="contact_phone">Sími:</strong> <a href="tel:+3545551234">+354 555 1234</a></p>
-					<p><strong data-i18n="contact_email">Netfang:</strong> <a href="mailto:anton@example.com">anton@example.com</a></p>
-					<p><strong data-i18n="contact_social">Samfélagsmiðlar:</strong> 
-						<a class="icon-link" href="https://instagram.com/anton.tattoo.art" target="_blank" rel="noopener" aria-label="Instagram">
-							<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7zm5 3.5a5.5 5.5 0 1 1 0 11a5.5 5.5 0 0 1 0-11zm0 2a3.5 3.5 0 1 0 0 7a3.5 3.5 0 0 0 0-7zm5.75-.75a1 1 0 1 1 0 2a1 1 0 0 1 0-2z"></path></svg>
-						</a>
-					</p>
+			<div class="container">
+				<h2 class="section-title gothic">Hafa samband</h2>
+				<p class="about-p">Komdu við, sendu skilaboð eða hringdu. Hér er stutta leiðin til mín.</p>
+				<div class="contact-summary">
+					<div>
+						<h3 class="gothic">Heimsókn</h3>
+						<p>Garðastræti 2, 101 Reykjavík</p>
+					</div>
+					<div>
+						<h3 class="gothic">Sími</h3>
+						<p><a href="tel:+3545551234">+354 555 1234</a></p>
+					</div>
+					<div>
+						<h3 class="gothic">Netfang</h3>
+						<p><a href="mailto:anton@example.com">anton@example.com</a></p>
+					</div>
+					<div>
+						<h3 class="gothic">Opnunartími</h3>
+						<p>Virka daga 10–18</p>
+					</div>
 				</div>
-				<div class="panel">
-					<form id="booking-form" class="form" novalidate>
-						<div class="form-row">
-							<label for="name" data-i18n="form_name_label">Nafn</label>
-							<input type="text" id="name" name="name" placeholder="Fullt nafn" required>
-						</div>
-						<div class="form-row">
-							<label for="email" data-i18n="form_email_label">Netfang</label>
-							<input type="email" id="email" name="email" placeholder="netfang@dæmi.is" required>
-						</div>
-						<div class="form-row">
-							<label for="message" data-i18n="form_message_label">Skilaboð</label>
-							<textarea id="message" name="message" rows="4" placeholder="Skrifaðu skilaboð"></textarea>
-						</div>
-						<button type="submit" class="btn btn-primary" data-i18n="form_submit">Senda beiðni</button>
-						<p id="form-message" class="form-message" role="status" aria-live="polite"></p>
-					</form>
+				<div class="contact-media">
+					<img src="location.png" alt="Stúdíó að utan" loading="lazy">
+					<div class="map-wrap"><iframe title="Google Map" src="https://www.google.com/maps?q=Gar%C3%B0astr%C3%A6ti%202%2C%20101%20Reykjav%C3%ADk&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
 				</div>
 			</div>
 		</section>
