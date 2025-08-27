@@ -110,7 +110,7 @@
 
 		<section id="services" class="section reveal">
 			<div class="container">
-				<h2 class="section-title gothic" data-i18n="services_title">Þjónusta & gildi</h2>
+				<h2 class="section-title gothic" data-i18n="services_title">Þjónusta, gildi og ferlið</h2>
 				<div class="cards">
 					<div class="card card-tilt">
 						<h3 class="card-title" data-i18n="service_custom">Sérhönnun</h3>
@@ -132,9 +132,8 @@
 			</div>
 		</section>
 
-		<section id="process" class="section reveal">
+		<section id="process" class="section reveal compact">
 			<div class="container">
-				<h2 class="section-title gothic" data-i18n="process_title">Ferlið</h2>
 				<div class="process-cards">
 					<div class="process-card">
 						<div class="process-icon" aria-hidden="true">
@@ -157,9 +156,6 @@
 						<h3 class="process-title"><span>Skref 3</span> — <span data-i18n="process_session">Tattú</span></h3>
 						<p class="process-desc" data-i18n="process_session_desc">Vinna á stúdíói með hreinlæti og fagmennsku.</p>
 					</div>
-				</div>
-				<div class="process-cta">
-					<a href="#booking" class="btn btn-primary" data-i18n="banner_cta">Bóka tíma</a>
 				</div>
 			</div>
 		</section>
@@ -234,6 +230,30 @@
 			</div>
 		</section>
 
+		<section id="faq" class="faq section reveal">
+			<div class="container">
+				<h2 class="section-title gothic" data-i18n="faq_title">Algengar spurningar</h2>
+				<div class="accordion">
+					<details>
+						<summary data-i18n="faq_process_q">Hvernig fer ferlið fram?</summary>
+						<p data-i18n="faq_process_a">Við byrjum á samráði þar sem við förum yfir hugmyndir, stærð og staðsetningu. Síðan er bókaður tími og útfærsla unnin.</p>
+					</details>
+					<details>
+						<summary data-i18n="faq_pain_q">Gera tattúirnir vont?</summary>
+						<p data-i18n="faq_pain_a">Sársauki er mismunandi eftir einstaklingum og staðsetningu. Anton vinnur hratt, hreint og með virðingu fyrir þægindum þínum.</p>
+					</details>
+					<details>
+						<summary data-i18n="faq_aftercare_q">Eftirmeðferð</summary>
+						<p data-i18n="faq_aftercare_a">Fylgdu leiðbeiningum um hreinsun, rakakrem og forðastu sól og sund fyrstu vikurnar.</p>
+					</details>
+					<details>
+						<summary data-i18n="faq_booking_q">Hvernig bóka ég?</summary>
+						<p data-i18n="faq_booking_a">Notaðu bókunarformið hér á síðunni eða sendu tölvupóst. Þú færð svar fljótlega.</p>
+					</details>
+				</div>
+			</div>
+		</section>
+
 		<section id="booking" class="booking section reveal">
 			<div class="container">
 				<h2 class="section-title gothic">Hafa samband</h2>
@@ -263,26 +283,41 @@
 			</div>
 		</section>
 
-		<section id="faq" class="faq section reveal">
+
+
+		<section id="inquiry" class="inquiry section reveal">
 			<div class="container">
-				<h2 class="section-title gothic" data-i18n="faq_title">Algengar spurningar</h2>
-				<div class="accordion">
-					<details>
-						<summary data-i18n="faq_process_q">Hvernig fer ferlið fram?</summary>
-						<p data-i18n="faq_process_a">Við byrjum á samráði þar sem við förum yfir hugmyndir, stærð og staðsetningu. Síðan er bókaður tími og útfærsla unnin.</p>
-					</details>
-					<details>
-						<summary data-i18n="faq_pain_q">Gera tattúirnir vont?</summary>
-						<p data-i18n="faq_pain_a">Sársauki er mismunandi eftir einstaklingum og staðsetningu. Anton vinnur hratt, hreint og með virðingu fyrir þægindum þínum.</p>
-					</details>
-					<details>
-						<summary data-i18n="faq_aftercare_q">Eftirmeðferð</summary>
-						<p data-i18n="faq_aftercare_a">Fylgdu leiðbeiningum um hreinsun, rakakrem og forðastu sól og sund fyrstu vikurnar.</p>
-					</details>
-					<details>
-						<summary data-i18n="faq_booking_q">Hvernig bóka ég?</summary>
-						<p data-i18n="faq_booking_a">Notaðu bókunarformið hér á síðunni eða sendu tölvupóst. Þú færð svar fljótlega.</p>
-					</details>
+				<h2 class="section-title gothic" data-i18n="inquiry_title">Senda fyrirspurn</h2>
+				<p class="about-p" data-i18n="inquiry_sub">Segðu mér frá hugmyndinni þinni, stíl og stærð — ég svara fljótt.</p>
+				<div class="panel gold-edge inquiry-panel">
+					<form id="inquiry-form" class="form inquiry-grid" novalidate>
+						<div class="form-row">
+							<label for="inq-name" data-i18n="inquiry_name_label">Nafn</label>
+							<input type="text" id="inq-name" name="name" placeholder="Fullt nafn" required>
+						</div>
+						<div class="form-row">
+							<label for="inq-email" data-i18n="inquiry_email_label">Netfang</label>
+							<input type="email" id="inq-email" name="email" placeholder="netfang@dæmi.is" required>
+						</div>
+						<div class="form-row">
+							<label for="inq-phone" data-i18n="inquiry_phone_label">Sími (val)</label>
+							<input type="tel" id="inq-phone" name="phone" placeholder="555-1234">
+						</div>
+						<div class="form-row">
+							<label for="inq-subject" data-i18n="inquiry_subject_label">Efni</label>
+							<select id="inq-subject" name="subject">
+								<option value="consult" data-i18n="inquiry_subject_consult">Samráð / Hugmynd</option>
+								<option value="quote" data-i18n="inquiry_subject_quote">Verðhugmynd</option>
+								<option value="booking" data-i18n="inquiry_subject_booking">Bókun</option>
+							</select>
+						</div>
+						<div class="form-row full">
+							<label for="inq-message" data-i18n="inquiry_message_label">Skilaboð</label>
+							<textarea id="inq-message" name="message" rows="5" placeholder="Skrifaðu skilaboð"></textarea>
+						</div>
+						<button type="submit" class="btn btn-primary" data-i18n="inquiry_submit">Senda fyrirspurn</button>
+						<p id="inquiry-message" class="form-message" role="status" aria-live="polite"></p>
+					</form>
 				</div>
 			</div>
 		</section>
