@@ -81,6 +81,7 @@ const translations = {
     contact_phone_h: 'Sími',
     contact_email_h: 'Netfang',
     contact_hours_h: 'Opnunartími',
+    contact_hours_value: 'Virka daga 10–18',
 
     footer_rights: 'öll réttindi áskilin'
   },
@@ -166,6 +167,7 @@ const translations = {
     contact_phone_h: 'Phone',
     contact_email_h: 'Email',
     contact_hours_h: 'Hours',
+    contact_hours_value: 'Weekdays 10am–6pm',
 
     footer_rights: 'all rights reserved'
   }
@@ -201,7 +203,11 @@ function setLanguage(lang) {
       phone: '555-1234',
       idea: 'Lýstu hugmyndinni',
       placement: 't.d. framhandleggur',
-      budget: 'ISK'
+      budget: 'ISK',
+      'inq-name': 'Fullt nafn',
+      'inq-email': 'netfang@dæmi.is',
+      'inq-phone': '555-1234',
+      'inq-message': 'Skrifaðu skilaboð'
     },
     en: {
       name: 'Full name',
@@ -209,7 +215,11 @@ function setLanguage(lang) {
       phone: '555-1234',
       idea: 'Describe your idea',
       placement: 'e.g. forearm',
-      budget: 'ISK'
+      budget: 'ISK',
+      'inq-name': 'Full name',
+      'inq-email': 'name@example.com',
+      'inq-phone': '555-1234',
+      'inq-message': 'Write your message'
     }
   };
   Object.entries(placeholders[lang]).forEach(([id, value]) => {
