@@ -41,6 +41,7 @@ const translations = {
     process_session_desc: 'Vinna á stúdíói með hreinlæti og fagmennsku.',
 
     booking_title: 'Hafa samband',
+    contact_intro: 'Komdu við, sendu skilaboð eða hringdu. Hér er stutta leiðin til mín.',
     form_name_label: 'Nafn',
     form_email_label: 'Netfang',
     form_phone_label: 'Sími',
@@ -127,6 +128,7 @@ const translations = {
     process_session_desc: 'Studio work with hygiene and professionalism.',
 
     booking_title: 'Contact',
+    contact_intro: 'Visit, message or call. Here is the quick way to reach me.',
     form_name_label: 'Name',
     form_email_label: 'Email',
     form_phone_label: 'Phone',
