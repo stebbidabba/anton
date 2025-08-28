@@ -183,10 +183,8 @@ img { max-width: 100%; height: auto; display: block; border-radius: 8px; }
 .filters { display: flex; gap: 8px; }
 .filter-btn { background: transparent; color: var(--muted); border: 1px solid var(--border); padding: 6px 12px; border-radius: 999px; cursor: pointer; transition: all .2s ease; }
 .filter-btn.active, .filter-btn:hover { color: #F6F6F6; background: #6A1E1E; border-color: #6A1E1E; }
-.gallery-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
-@media (max-width: 1100px) { .gallery-grid { grid-template-columns: repeat(3, 1fr); } }
-@media (max-width: 700px) { .gallery-grid { grid-template-columns: repeat(2, 1fr); } }
-@media (max-width: 480px) { .gallery-grid { grid-template-columns: 1fr; } }
+.gallery-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
+@media (max-width: 600px) { .gallery-grid { grid-template-columns: 1fr; } }
 .gallery-item { position: relative; overflow: hidden; border-radius: 12px; aspect-ratio: 3 / 4; }
 .gallery-item img { width: 100%; height: 100%; object-fit: cover; transition: transform .3s ease, filter .3s ease; border: 1px solid var(--border); }
 /* Dark gradient for legibility */
