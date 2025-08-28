@@ -247,7 +247,9 @@ img { max-width: 100%; height: auto; display: block; border-radius: 8px; }
 
 /* Mobile nav */
 @media (max-width: 800px) {
-  .menu { display: none; position: absolute; right: 12px; top: 56px; background: var(--bg-elev); border: 1px solid var(--border); padding: 10px; border-radius: 12px; flex-direction: column; }
-  .menu.show { display: flex; }
+  .menu { position: fixed; top: 56px; right: 0; height: calc(100vh - 56px); width: min(80vw, 320px); background: var(--bg-elev); border-left: 1px solid var(--section-separator); padding: 14px; gap: 12px; flex-direction: column; transform: translateX(100%); transition: transform .25s ease; box-shadow: -20px 0 40px rgba(0,0,0,0.35); display: flex; }
+  .menu.show { transform: translateX(0); }
+  .menu a { padding: 10px 6px; border-bottom: 1px solid var(--section-separator); }
+  .menu a:last-child { border-bottom: 0; }
   .nav-toggle { display: inline-block; }
 }

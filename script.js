@@ -53,6 +53,10 @@ const translations = {
     contact_phone: 'Sími:',
     contact_email: 'Netfang:',
     contact_social: 'Samfélagsmiðlar:',
+    contact_visit: 'Heimsókn',
+    contact_phone_h: 'Sími',
+    contact_email_h: 'Netfang',
+    contact_hours_h: 'Opnunartími',
 
     footer_rights: 'öll réttindi áskilin'
   },
@@ -110,6 +114,10 @@ const translations = {
     contact_phone: 'Phone:',
     contact_email: 'Email:',
     contact_social: 'Social:',
+    contact_visit: 'Visit',
+    contact_phone_h: 'Phone',
+    contact_email_h: 'Email',
+    contact_hours_h: 'Hours',
 
     footer_rights: 'all rights reserved'
   }
@@ -186,6 +194,13 @@ if (navToggle && menu) {
     menu.classList.remove('show');
     navToggle.setAttribute('aria-expanded', 'false');
   }));
+  // Close on escape
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      menu.classList.remove('show');
+      navToggle.setAttribute('aria-expanded', 'false');
+    }
+  });
 }
 
 // Lightbox
