@@ -26,7 +26,7 @@
 	<link rel="stylesheet" href="styles.css">
 	<link rel="icon" href="favicon.ico">
 	<link rel="preload" as="image" href="logo.png">
-	<link rel="preload" as="image" href="heroimage.jpg.webp">
+	<link rel="preload" as="image" href="landing.jpeg">
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -100,7 +100,7 @@
 
 	<main>
 		<section id="hero" class="hero section">
-			<img class="hero-bg" src="heroimage.jpg.webp" alt="Anton tattúlisti við vinnu" data-alt-is="Anton tattúlisti við vinnu" data-alt-en="Anton tattoo artist at work" loading="eager" decoding="async" />
+			<img class="hero-bg" src="landing.jpeg" alt="Anton tattúlisti við vinnu" data-alt-is="Anton tattúlisti við vinnu" data-alt-en="Anton tattoo artist at work" loading="eager" decoding="async" />
 			<a href="#" class="hero-logo" aria-label="Anton Tattoo">
 				<img src="logo.png" alt="Anton Tattoo logo" class="hero-logo-img" loading="eager" decoding="async">
 			</a>
@@ -139,21 +139,21 @@
 						<div class="process-icon" aria-hidden="true">
 							<svg viewBox="0 0 24 24"><path d="M3 6a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6zm2 .5l7 4.5l7-4.5V6H5v.5z"></path></svg>
 						</div>
-						<h3 class="process-title"><span>Skref 1</span> — <span data-i18n="process_consult">Samráð</span></h3>
+						<h3 class="process-title"><span><span data-i18n="step">Skref</span> 1</span> — <span data-i18n="process_consult">Samráð</span></h3>
 						<p class="process-desc" data-i18n="process_consult_desc">Við ræðum hugmynd, stærð og staðsetningu.</p>
 					</div>
 					<div class="process-card">
 						<div class="process-icon" aria-hidden="true">
 							<svg viewBox="0 0 24 24"><path d="M4 4h16v12H7l-3 3V4z"></path></svg>
 						</div>
-						<h3 class="process-title"><span>Skref 2</span> — <span data-i18n="process_design">Hönnun</span></h3>
+						<h3 class="process-title"><span><span data-i18n="step">Skref</span> 2</span> — <span data-i18n="process_design">Hönnun</span></h3>
 						<p class="process-desc" data-i18n="process_design_desc">Sjónræn útfærsla og aðlögun að líkamsformi.</p>
 					</div>
 					<div class="process-card">
 						<div class="process-icon" aria-hidden="true">
 							<svg viewBox="0 0 24 24"><path d="M7 2h10a1 1 0 0 1 1 1v2h3v15a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5h3V3a1 1 0 0 1 1-1zm1 3V3h8v2H8zm-3 4h14v11H5V9z"></path></svg>
 						</div>
-						<h3 class="process-title"><span>Skref 3</span> — <span data-i18n="process_session">Tattú</span></h3>
+						<h3 class="process-title"><span><span data-i18n="step">Skref</span> 3</span> — <span data-i18n="process_session">Tattú</span></h3>
 						<p class="process-desc" data-i18n="process_session_desc">Vinna á stúdíói með hreinlæti og fagmennsku.</p>
 					</div>
 				</div>
@@ -198,34 +198,33 @@
 
 		<section id="portfolio" class="portfolio section reveal">
 			<div class="container">
-				<div class="section-head">
-					<h2 class="section-title gothic" data-i18n="portfolio_title">Verk</h2>
-					<div class="filters" role="tablist" aria-label="Flokkar">
-						<button class="filter-btn active" data-filter="all" role="tab" aria-selected="true" data-i18n="filter_all">Allt</button>
-						<button class="filter-btn" data-filter="karltattu" role="tab" aria-selected="false" data-i18n="filter_men">Karltattú</button>
-						<button class="filter-btn" data-filter="konutattu" role="tab" aria-selected="false" data-i18n="filter_women">Konutattú</button>
+				<h2 class="section-title gothic" data-i18n="portfolio_title">Verk</h2>
+				<div class="portfolio-groups">
+					<div class="portfolio-group">
+						<a class="gallery-cover" data-group="fineline" data-images="fineline1.jpeg,fineline2.jpeg,fineline3.jpeg,fineline4.jpeg,fineline5.jpeg,fineline6.jpeg,fineline7.jpeg,fineline8.jpeg,fineline9.jpeg,fineline10.jpeg,fineline11.jpeg">
+							<img src="fineline1.jpeg" alt="Fine line cover" loading="lazy">
+							<span class="cover-label">Fineline</span>
+							
+							<button class="cover-nav cover-prev" aria-label="Previous">‹</button>
+							<button class="cover-nav cover-next" aria-label="Next">›</button>
+						</a>
 					</div>
-				</div>
-				<div class="gallery-grid">
-					<a href="mantat1.png" class="gallery-item" data-category="karltattu" data-label="FINE LINE">
-						<img src="mantat1.png" width="900" height="1200" alt="Karltattú 1" data-alt-is="Karltattú 1" data-alt-en="Men tattoo 1" loading="lazy">
-					</a>
-					<a href="mantat2.png" class="gallery-item" data-category="karltattu" data-label="REALISM">
-						<img src="mantat2.png" width="900" height="1200" alt="Karltattú 2" data-alt-is="Karltattú 2" data-alt-en="Men tattoo 2" loading="lazy">
-					</a>
-					<a href="mantat3.png" class="gallery-item" data-category="karltattu" data-label="BLACKWORK">
-						<img src="mantat3.png" width="900" height="1200" alt="Karltattú 3" data-alt-is="Karltattú 3" data-alt-en="Men tattoo 3" loading="lazy">
-					</a>
-					
-					<a href="womantat1.png" class="gallery-item" data-category="konutattu" data-label="DELICATE">
-						<img src="womantat1.png" width="900" height="1200" alt="Konutattú 1" data-alt-is="Konutattú 1" data-alt-en="Women tattoo 1" loading="lazy">
-					</a>
-					<a href="womantat2.png" class="gallery-item" data-category="konutattu" data-label="SCRIPT">
-						<img src="womantat2.png" width="900" height="1200" alt="Konutattú 2" data-alt-is="Konutattú 2" data-alt-en="Women tattoo 2" loading="lazy">
-					</a>
-					<a href="womantat3.png" class="gallery-item" data-category="konutattu" data-label="MINIMAL">
-						<img src="womantat3.png" width="900" height="1200" alt="Konutattú 3" data-alt-is="Konutattú 3" data-alt-en="Women tattoo 3" loading="lazy">
-					</a>
+					<div class="portfolio-group">
+						<a class="gallery-cover" data-group="colour" data-images="colourtat1.jpeg,colourtat2.jpeg,colourtat3.jpeg,colourtat4.jpeg">
+							<img src="colourtat1.jpeg" alt="Colour cover" loading="lazy">
+							<span class="cover-label">Colour</span>
+							<button class="cover-nav cover-prev" aria-label="Previous">‹</button>
+							<button class="cover-nav cover-next" aria-label="Next">›</button>
+						</a>
+					</div>
+					<div class="portfolio-group">
+						<a class="gallery-cover" data-group="realistic" data-images="realistic1.jpeg,realistic3.jpeg,realistic4.jpeg,realistic5.jpeg,realistic6.jpeg,realistic7.jpeg,realistic8.jpeg">
+							<img src="realistic1.jpeg" alt="Realistic cover" loading="lazy">
+							<span class="cover-label">Realistic</span>
+							<button class="cover-nav cover-prev" aria-label="Previous">‹</button>
+							<button class="cover-nav cover-next" aria-label="Next">›</button>
+						</a>
+					</div>
 				</div>
 			</div>
 		</section>
@@ -277,7 +276,7 @@
 					</div>
 				</div>
 				<div class="contact-media">
-					<img src="location.png" alt="Stúdíó að utan" loading="lazy">
+					<img src="location.jpeg" alt="Stúdíó að utan" loading="lazy">
 					<div class="map-wrap"><iframe title="Google Map" src="https://www.google.com/maps?q=Gar%C3%B0astr%C3%A6ti%202%2C%20101%20Reykjav%C3%ADk&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
 				</div>
 			</div>
@@ -288,28 +287,29 @@
 		<section id="inquiry" class="inquiry section reveal">
 			<div class="container">
 				<h2 class="section-title gothic" data-i18n="inquiry_title">Senda fyrirspurn</h2>
-				<p class="about-p" data-i18n="inquiry_sub">Segðu mér frá hugmyndinni þinni, stíl og stærð — ég svara fljótt.</p>
+				<p class="about-p" data-i18n="inquiry_sub_alt">Hringdu eða sendu DM á Instagram — ég svara fljótt.</p>
 				<div class="panel gold-edge inquiry-panel">
-					<form id="inquiry-form" class="form inquiry-grid" novalidate>
-						<div class="form-row">
-							<label for="inq-name" data-i18n="inquiry_name_label">Nafn</label>
-							<input type="text" id="inq-name" name="name" placeholder="Fullt nafn" required>
-						</div>
-						<div class="form-row">
-							<label for="inq-email" data-i18n="inquiry_email_label">Netfang</label>
-							<input type="email" id="inq-email" name="email" placeholder="netfang@dæmi.is" required>
-						</div>
-						<div class="form-row">
-							<label for="inq-phone" data-i18n="inquiry_phone_label">Sími (val)</label>
-							<input type="tel" id="inq-phone" name="phone" placeholder="555-1234">
-						</div>
-						<div class="form-row full">
-							<label for="inq-message" data-i18n="inquiry_message_label">Skilaboð</label>
-							<textarea id="inq-message" name="message" rows="5" placeholder="Skrifaðu skilaboð"></textarea>
-						</div>
-						<button type="submit" class="btn btn-primary" data-i18n="inquiry_submit">Senda fyrirspurn</button>
-						<p id="inquiry-message" class="form-message" role="status" aria-live="polite"></p>
-					</form>
+					<div class="inquiry-cta">
+						<a class="cta-tile" href="tel:+3545551234" aria-label="Call">
+							<span class="tile-icon" aria-hidden="true">
+								<svg viewBox="0 0 24 24"><path d="M6.6 10.8a15.9 15.9 0 0 0 6.6 6.6l2.2-2.2a1.5 1.5 0 0 1 1.6-.36c1.24.47 2.6.73 3.98.73a1 1 0 0 1 1 1v3.6a1 1 0 0 1-1 1C11.6 22.23 1.77 12.4 1.77 1.98a1 1 0 0 1 1-1h3.6a1 1 0 0 1 1 1c0 1.38.26 2.74.73 3.98a1.5 1.5 0 0 1-.36 1.6L6.6 10.8z"></path></svg>
+							</span>
+							<div>
+								<h4 data-i18n="inquiry_call_title">Hringja</h4>
+								<p>+354 555 1234</p>
+							</div>
+						</a>
+
+						<a class="cta-tile" href="https://instagram.com/anton.tattoo.art" target="_blank" rel="noopener" aria-label="Instagram DM">
+							<span class="tile-icon" aria-hidden="true">
+								<svg viewBox="0 0 24 24"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7zm5 3.5a5.5 5.5 0 1 1 0 11a5.5 5.5 0 0 1 0-11zm0 2a3.5 3.5 0 1 0 0 7a3.5 3.5 0 0 0 0-7zm5.75-.75a1 1 0 1 1 0 2a1 1 0 0 1 0-2z"></path></svg>
+							</span>
+							<div>
+								<h4 data-i18n="inquiry_dm_title">Instagram DM</h4>
+								<p>@anton.tattoo.art</p>
+							</div>
+						</a>
+					</div>
 				</div>
 			</div>
 		</section>
@@ -325,6 +325,8 @@
 
 	<div id="lightbox" class="lightbox" aria-hidden="true" role="dialog" aria-label="Ljósmyndasýning">
 		<button class="lightbox-close" aria-label="Loka">×</button>
+		<button class="nav-btn nav-prev" aria-label="Previous">‹</button>
+		<button class="nav-btn nav-next" aria-label="Next">›</button>
 		<img src="" alt="" id="lightbox-image">
 	</div>
 

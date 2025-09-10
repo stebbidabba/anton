@@ -13,7 +13,7 @@ const translations = {
     cta_view_work: 'Skoða verk',
 
     about_title: 'Um Anton',
-    about_intro: 'Meira en 25 ára reynsla – ég lít á mannslíkamann sem striga sem ég fylli með tattúum. Þetta er ekki bara list fyrir mig — þetta er lífsstíll minn.',
+    about_intro: 'Góðan dag, ég heiti Anton. Ég hef verið að gera tattú í yfir tuttugu og fimm ár. Ég elska starfið mitt og lærði við listaskóla í sjö ár. Það hvetur mig að vinna í mismunandi stílum og ekki staðna. Ég legg mikinn tíma í hvern viðskiptavin til að gera tattúið sérstakt og eins einstakt og mögulegt er.',
     about_details_shop: 'Eigandi listasölu í Garðastræti 2.',
     about_details_from: 'Frá Eistlandi, búsettur á Íslandi.',
     about_details_exclusive: 'Sérhönnun og sjónræn útfærsla í Procreate; vinn í mörgum stílum.',
@@ -24,6 +24,9 @@ const translations = {
     filter_all: 'Allt',
     filter_men: 'Karltattú',
     filter_women: 'Konutattú',
+    filter_fineline: 'Fine line',
+    filter_realism: 'Realism',
+    filter_minimal: 'Minimal',
     services_title: 'Þjónusta, gildi og ferlið',
     service_custom: 'Sérhönnun',
     service_custom_desc: 'Einstök hönnun fyrir þig, unnin með Procreate og samráði.',
@@ -39,6 +42,7 @@ const translations = {
     process_design_desc: 'Sjónræn útfærsla og aðlögun að líkamsformi.',
     process_session: 'Tattú',
     process_session_desc: 'Vinna á stúdíói með hreinlæti og fagmennsku.',
+    step: 'Skref',
 
     booking_title: 'Hafa samband',
     contact_intro: 'Komdu við, sendu skilaboð eða hringdu. Hér er stutta leiðin til mín.',
@@ -54,6 +58,9 @@ const translations = {
     banner_cta: 'Bóka tíma',
     inquiry_title: 'Senda fyrirspurn',
     inquiry_sub: 'Segðu mér frá hugmyndinni þinni, stíl og stærð — ég svara fljótt.',
+    inquiry_sub_alt: 'Hringdu eða sendu DM á Instagram — ég svara fljótt.',
+    inquiry_call_title: 'Hringja',
+    inquiry_dm_title: 'Instagram DM',
     inquiry_name_label: 'Nafn',
     inquiry_email_label: 'Netfang',
     inquiry_phone_label: 'Sími (val)',
@@ -73,6 +80,8 @@ const translations = {
     faq_aftercare_a: 'Fylgdu leiðbeiningum um hreinsun, rakakrem og forðastu sól og sund fyrstu vikurnar.',
     faq_booking_q: 'Hvernig bóka ég?',
     faq_booking_a: 'Notaðu bókunarformið hér á síðunni eða sendu tölvupóst. Þú færð svar fljótlega.',
+    about_p1: 'Góðan dag, ég heiti Anton. Ég hef verið að gera tattú í yfir tuttugu og fimm ár. Ég elska starfið mitt og lærði við listaskóla í sjö ár. Það hvetur mig að vinna í mismunandi stílum og ekki staðna. Ég legg mikinn tíma í hvern viðskiptavin til að gera tattúið sérstakt og eins einstakt og mögulegt er.',
+    about_p2: 'Ég bíð þín í stúdíóinu mínu á Garðastræti 2.',
 
     location_title: 'Staðsetning',
     contact_phone: 'Sími:',
@@ -100,7 +109,7 @@ const translations = {
     cta_view_work: 'View work',
 
     about_title: 'About Anton',
-    about_intro: 'With more than 25 years of experience, I see the human body as a canvas I fill with tattoo. This is not only art for me — this is my lifestyle.',
+    about_intro: 'Good day, my name is Anton. I have been doing tattoos for over twenty-five years. I love my job very much; I spent seven years studying at an art school. I am inspired to work in different styles and not stand still. I try to devote a lot of time to each client in my work to make this tattoo special and as exclusive as possible.',
     about_details_shop: 'Art shop owner at Garðastræti 2.',
     about_details_from: 'From Estonia, living in Iceland.',
     about_details_exclusive: 'Exclusive design and visualization with Procreate; I work in many styles.',
@@ -111,6 +120,9 @@ const translations = {
     filter_all: 'All',
     filter_men: "Men's tattoos",
     filter_women: "Women's tattoos",
+    filter_fineline: 'Fine line',
+    filter_realism: 'Realism',
+    filter_minimal: 'Minimal',
     services_title: 'Services, values and process',
     service_custom: 'Custom design',
     service_custom_desc: 'Unique artwork for you, created in Procreate with consultation.',
@@ -126,6 +138,7 @@ const translations = {
     process_design_desc: 'Visual development tailored to body form.',
     process_session: 'Tattoo',
     process_session_desc: 'Studio work with hygiene and professionalism.',
+    step: 'Step',
 
     booking_title: 'Contact',
     contact_intro: 'Visit, message or call. Here is the quick way to reach me.',
@@ -141,6 +154,9 @@ const translations = {
     banner_cta: 'Book a session',
     inquiry_title: 'Send an inquiry',
     inquiry_sub: 'Tell me about your idea, style and size — I reply quickly.',
+    inquiry_sub_alt: 'Call or send an Instagram DM — I reply quickly.',
+    inquiry_call_title: 'Call',
+    inquiry_dm_title: 'Instagram DM',
     inquiry_name_label: 'Name',
     inquiry_email_label: 'Email',
     inquiry_phone_label: 'Phone (optional)',
@@ -160,6 +176,8 @@ const translations = {
     faq_aftercare_a: 'Follow the aftercare instructions: cleanse, moisturize and avoid sun and swimming for the first weeks.',
     faq_booking_q: 'How do I book?',
     faq_booking_a: 'Use the booking form on this page or send an email. You will get a reply shortly.',
+    about_p1: 'Good day, my name is Anton. I have been doing tattoos for over twenty-five years. I love my job very much; I spent seven years studying at an art school. I am inspired to work in different styles and not stand still. I try to devote a lot of time to each client in my work to make this tattoo special and as exclusive as possible.',
+    about_p2: 'I am waiting for you in my studio at the address. Garðastræti 2',
 
     location_title: 'Location',
     contact_phone: 'Phone:',
@@ -267,6 +285,10 @@ if (navToggle && menu) {
 const lightbox = document.getElementById('lightbox');
 const lightboxImg = document.getElementById('lightbox-image');
 const lightboxClose = document.querySelector('.lightbox-close');
+let gallerySequence = [];
+let galleryIndex = 0;
+const navPrev = document.querySelector('.nav-prev');
+const navNext = document.querySelector('.nav-next');
 
 document.querySelectorAll('.gallery-item').forEach(item => {
   item.addEventListener('click', e => {
@@ -280,6 +302,33 @@ document.querySelectorAll('.gallery-item').forEach(item => {
   });
 });
 
+// Cover galleries (grouped)
+document.querySelectorAll('.gallery-cover').forEach(cover => {
+  cover.addEventListener('click', e => {
+    e.preventDefault();
+    const list = (cover.getAttribute('data-images') || '').split(',').map(s => s.trim()).filter(Boolean);
+    if (!list.length) return;
+    gallerySequence = list;
+    galleryIndex = 0;
+    lightboxImg.src = gallerySequence[galleryIndex];
+    lightboxImg.alt = '';
+    lightbox.classList.add('show');
+    lightbox.setAttribute('aria-hidden', 'false');
+  });
+  const prevBtn = cover.querySelector('.cover-prev');
+  const nextBtn = cover.querySelector('.cover-next');
+  const images = (cover.getAttribute('data-images') || '').split(',').map(s => s.trim()).filter(Boolean);
+  let coverIndex = 0;
+  function setCover(idx) {
+    if (!images.length) return;
+    coverIndex = (idx + images.length) % images.length;
+    const imgEl = cover.querySelector('img');
+    if (imgEl) imgEl.src = images[coverIndex];
+  }
+  if (prevBtn) prevBtn.addEventListener('click', (e) => { e.preventDefault(); e.stopPropagation(); setCover(coverIndex - 1); });
+  if (nextBtn) nextBtn.addEventListener('click', (e) => { e.preventDefault(); e.stopPropagation(); setCover(coverIndex + 1); });
+});
+
 function closeLightbox() {
   lightbox.classList.remove('show');
   lightbox.setAttribute('aria-hidden', 'true');
@@ -290,21 +339,46 @@ if (lightboxClose) lightboxClose.addEventListener('click', closeLightbox);
 if (lightbox) lightbox.addEventListener('click', (e) => { if (e.target === lightbox) closeLightbox(); });
 document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeLightbox(); });
 
+// Lightbox next/prev with arrows or click
+function showNext(delta) {
+  if (!gallerySequence.length) return;
+  galleryIndex = (galleryIndex + delta + gallerySequence.length) % gallerySequence.length;
+  lightboxImg.src = gallerySequence[galleryIndex];
+}
+document.addEventListener('keydown', (e) => {
+  if (!lightbox.classList.contains('show')) return;
+  if (e.key === 'ArrowRight') showNext(1);
+  if (e.key === 'ArrowLeft') showNext(-1);
+});
+lightboxImg.addEventListener('click', () => showNext(1));
+if (navPrev) navPrev.addEventListener('click', (e) => { e.stopPropagation(); showNext(-1); });
+if (navNext) navNext.addEventListener('click', (e) => { e.stopPropagation(); showNext(1); });
+
 // Filters
 const filterButtons = document.querySelectorAll('.filter-btn');
 const items = document.querySelectorAll('.gallery-item');
+
+function applyFilter(filter) {
+  items.forEach(it => {
+    const cat = it.getAttribute('data-category');
+    const show = filter === 'all' || filter === cat;
+    it.style.display = show ? '' : 'none';
+  });
+}
+
 filterButtons.forEach(btn => {
   btn.addEventListener('click', () => {
     filterButtons.forEach(b => b.classList.remove('active'));
     btn.classList.add('active');
-    const filter = btn.getAttribute('data-filter');
-    items.forEach(it => {
-      const cat = it.getAttribute('data-category');
-      const show = filter === 'all' || filter === cat;
-      it.style.display = show ? '' : 'none';
-    });
+    applyFilter(btn.getAttribute('data-filter'));
   });
 });
+
+// Apply initial filter based on the button marked active
+const initialActive = document.querySelector('.filters .filter-btn.active');
+if (initialActive) {
+  applyFilter(initialActive.getAttribute('data-filter'));
+}
 
 // Form handling (simple client-side)
 const form = document.getElementById('booking-form');
